@@ -25,7 +25,7 @@ define('Test.CRUD.Collection.View',[
     TestCRUDCollectionView.prototype.constructor = TestCRUDCollectionView;
 
     TestCRUDCollectionView.prototype.getCellViewsPerRow = function() {
-        return 1;
+        return 1
     }
 
     TestCRUDCollectionView.prototype.getCellViewInstance = function (model) {

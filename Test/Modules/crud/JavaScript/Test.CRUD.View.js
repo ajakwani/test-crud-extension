@@ -28,7 +28,9 @@ define('Test.CRUD.View', [
             }
 
             return this.collection.fetch()
-        },
+        }
+    })
+});
 
         // getContext: function getContext(){
         //     return {
@@ -40,5 +42,3 @@ define('Test.CRUD.View', [
         //         gender: this.model.get('gender')
         //     }
         // }
-    })
-})

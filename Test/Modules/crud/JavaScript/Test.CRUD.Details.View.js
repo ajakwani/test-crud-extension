@@ -18,7 +18,7 @@ define('Test.CRUD.Details.View' ,[
     }
 
     TestCRUDDetailsView.prototype = Object.create(SCView.prototype);
-    TestCRUDDetailsView.prototype.constructor = TestCRUDDetailsView
+    TestCRUDDetailsView.prototype.constructor = TestCRUDDetailsView;
 
     TestCRUDDetailsView.prototype.getContext = function () {
         return {
